@@ -13,7 +13,7 @@ cascadePath = './cascade/haarcascade_frontalface_default.xml'
 faceCascade = cv2.CascadeClassifier(cascadePath)
 
 face_name = "Unknown"
-names = ['None', 'LinXuan', 'WeiJie']
+names = ['None', 'vanilla', 'vanilla_2']
 face_output_id = 0
 face_1st_flag = 0
 
@@ -29,9 +29,9 @@ while True:
             real_confidence = int(100 - confidence) + 30
             if (real_confidence > 70):
                 if face_output_id <= 10:
-                    face_name = 'LinXuan'
+                    face_name = 'vanilla'
                 else:
-                    face_name = 'WeiJie'
+                    face_name = 'vanilla_2'
                 print(face_output_id)
 
                 face_confidence = str(real_confidence) + "%"
