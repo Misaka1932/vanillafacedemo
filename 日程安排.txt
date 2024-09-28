@@ -1,0 +1,15 @@
+具体要求：
+实时读取头像 并储存到database里面
+姓名 性别等信息 读取/储存在excel里面
+使用时识别头像 并判断人的姓名
+要求能录入 读取 修改(admin) 显示
+要能训练出.xml文件 并调用
+要有一个像样的软件窗口(参考之前写的login.py)
+
+已完成的内容：
+验证码        captcha
+基本图像识别  opencv
+网络爬虫      requests和beautiful soup
+
+学习flask 和 mysql
+复习tkinter 一些基础窗口操作
