@@ -1,4 +1,4 @@
-# 此为主程序
+# 此为测试程序 带注释
 
 import cv2
 import os
